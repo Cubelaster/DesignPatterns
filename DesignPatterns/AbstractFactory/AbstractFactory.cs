@@ -4,6 +4,9 @@ using System;
 
 namespace DesignPatterns.AbstractFactory
 {
+    /// <summary>
+    /// Abstract Factory is designed to create families of related or dependent objects by using interfaces and classes to defer the actual creation of concrete products in the concrete factory subclasses.
+    /// </summary>
     static class AbstractFactory
     {
         public static void Run()
