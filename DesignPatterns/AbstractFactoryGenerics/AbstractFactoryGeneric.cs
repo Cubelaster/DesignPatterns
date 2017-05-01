@@ -20,6 +20,9 @@ namespace DesignPatterns.AbstractFactoryGenerics
             Console.WriteLine("These sub-factories have generics which are meant to recoignise which entity to create. " + Environment.NewLine
                 + "Creating the entities is then done by calling the Create method with desired generic type." + Environment.NewLine);
 
+            // The Main Factory uses generic types to actually fire a Build method from desired factory.
+            // The factory can only create the kind of product defined by generic type given.
+
             // Create instances of factrories for types of products
             Factory<Car> carFactory = new Factory<Car>();
             Factory<Plane> planeFactory = new Factory<Plane>();
