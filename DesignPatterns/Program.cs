@@ -28,6 +28,13 @@ namespace DesignPatterns
 
             #endregion AbstractFactoryGeneric
 
+            #region Builder
+
+            Builder.Builder.Run();
+            
+            #endregion Builder
+
+            // Holds the Console from closing in Debug mode
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.ReadLine();
