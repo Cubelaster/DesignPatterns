@@ -1,12 +1,4 @@
-﻿using DesignPatterns.AbstractFactory.Factories;
-using DesignPatterns.AbstractFactory.Implementation;
-using DesignPatterns.AbstractFactoryGenerics.Factory;
-using DesignPatterns.AbstractFactoryGenerics.Products.BaseProducts;
-using DesignPatterns.AbstractFactoryGenerics.Products.CarProducts;
-using DesignPatterns.AbstractFactoryGenerics.Products.Contracts;
-using DesignPatterns.AbstractFactoryGenerics.Products.PartProducts;
-using DesignPatterns.AbstractFactoryGenerics.Products.PlaneProducts;
-using System;
+﻿using System;
 
 namespace DesignPatterns
 {
@@ -31,8 +23,14 @@ namespace DesignPatterns
             #region Builder
 
             Builder.Builder.Run();
-            
+
             #endregion Builder
+
+            #region Factory
+
+            Factory.Factory.Run();
+
+            #endregion Factory
 
             // Holds the Console from closing in Debug mode
             if (System.Diagnostics.Debugger.IsAttached)
