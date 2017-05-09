@@ -29,6 +29,8 @@ namespace DesignPatterns.Factory
                     Console.WriteLine(" " + page.GetType().Name);
                 }
             }
+
+            Console.WriteLine("");
         }
     }
 }

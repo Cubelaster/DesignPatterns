@@ -32,6 +32,12 @@ namespace DesignPatterns
 
             #endregion Factory
 
+            #region Prototype
+
+            Prototype.Prototype.Run();
+
+            #endregion Prototype
+
             // Holds the Console from closing in Debug mode
             if (System.Diagnostics.Debugger.IsAttached)
             {
