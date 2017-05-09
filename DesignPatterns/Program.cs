@@ -38,6 +38,12 @@ namespace DesignPatterns
 
             #endregion Prototype
 
+            #region Singleton
+
+            Singleton.Singleton.Run();
+
+            #endregion Singleton
+
             // Holds the Console from closing in Debug mode
             if (System.Diagnostics.Debugger.IsAttached)
             {
